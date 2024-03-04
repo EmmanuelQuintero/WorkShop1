@@ -78,4 +78,5 @@ python -m venv venv
 ```bash
 pip install requirements.txt
 ```
-
+6. Create a database in PostgreSQL
+7. The project have an Jupyter Notebook, "workshopy.ipynb"
