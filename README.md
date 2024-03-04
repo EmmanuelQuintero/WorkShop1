@@ -39,6 +39,7 @@ The repository has a gitignore, the dataset used, the readme and the jupyter Not
 
 # Requirements
 
-Install Python [Python Downloads](https://www.python.org/downloads/)
-Install PostgreSQL [Postgres Downloads](https://www.postgresql.org/download/)
-Install PowerBI [PowerBI Donwloads](https://www.microsoft.com/en-us/download/details.aspx?id=58494) 
+- Install Python [Python Downloads](https://www.python.org/downloads/)
+- Install PostgreSQL [Postgres Downloads](https://www.postgresql.org/download/)
+- Install PowerBI [PowerBI Donwloads](https://www.microsoft.com/en-us/download/details.aspx?id=58494) 
+
