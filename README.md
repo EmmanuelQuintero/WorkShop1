@@ -43,6 +43,19 @@ The repository has a gitignore, the dataset used, the readme and the jupyter Not
 - Install PostgreSQL [Postgres Downloads](https://www.postgresql.org/download/)
 - Install PowerBI [PowerBI Donwloads](https://www.microsoft.com/en-us/download/details.aspx?id=58494) 
 
+# Database Configuration
+To run the application correctly, you need to create a JSON file with the following format and fill in the values with information from your database:
+
+```json
+{
+    "host": "your_postgres_host",
+    "port": "your_postgres_port",
+    "database": "database_name",
+    "user": "your_postgres_user",
+    "password": "your_postgres_password"
+}
+```
+
 # To Run this project
 
 1. Clone the project
@@ -65,3 +78,4 @@ python -m venv venv
 ```bash
 pip install requirements.txt
 ```
+
