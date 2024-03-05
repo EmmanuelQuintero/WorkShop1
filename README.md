@@ -58,23 +58,23 @@ To run the application correctly, you need to create a JSON file called `connect
 
 # To Run this project
 
-1. Clone the project
+1. Clone the project:
 ```bash
   git clone https://github.com/emmanuelqp/WorkShop1.git)https://github.com/emmanuelqp/WorkShop1.git
 ```
-2. Go to the project directory
+2. Go to the project directory:
 ```bash
 cd WorkShop1
 ```
-3. Create virtual environment for Python
+3. Create virtual environment for Python:
 ```bash
 python -m venv venv
 ```
-4. Activate virtual environment
+4. Activate virtual environment:
 ```bash
 .\venv\Scripts\activate
 ```
-5. Install libraries
+5. Install libraries:
 ```bash
 pip install requirements.txt
 ```
