@@ -39,6 +39,44 @@ The repository has a gitignore, the dataset used, the readme and the jupyter Not
 
 # Requirements
 
-Install Python [Python Downloads](https://www.python.org/downloads/)
-Install PostgreSQL [Postgres Downloads](https://www.postgresql.org/download/)
-Install PowerBI [PowerBI Donwloads](https://www.microsoft.com/en-us/download/details.aspx?id=58494) 
+- Install Python [Python Downloads](https://www.python.org/downloads/)
+- Install PostgreSQL [Postgres Downloads](https://www.postgresql.org/download/)
+- Install PowerBI [PowerBI Donwloads](https://www.microsoft.com/en-us/download/details.aspx?id=58494) 
+
+# Database Configuration
+To run the application correctly, you need to create a JSON file called `connection.json` to connect to the database in postgresSQL with the following format and fill the values with information from your database:
+
+```json
+{
+    "host": "your_postgres_host",
+    "port": "your_postgres_port",
+    "database": "database_name",
+    "user": "your_postgres_user",
+    "password": "your_postgres_password"
+}
+```
+
+# To Run this project
+
+1. Clone the project
+```bash
+  git clone https://github.com/emmanuelqp/WorkShop1.git)https://github.com/emmanuelqp/WorkShop1.git
+```
+2. Go to the project directory
+```bash
+cd WorkShop1
+```
+3. Create virtual environment for Python
+```bash
+python -m venv venv
+```
+4. Activate virtual environment
+```bash
+.\venv\Scripts\activate
+```
+5. Install libraries
+```bash
+pip install requirements.txt
+```
+6. Create a database in PostgreSQL
+7. The project have an Jupyter Notebook, "workshopy.ipynb"
