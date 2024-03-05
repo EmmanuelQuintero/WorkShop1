@@ -80,5 +80,10 @@ pip install requirements.txt
 ```
 6. Create a database in PostgreSQL
 7. The project have an Jupyter Notebook, "workshopy.ipynb" and this notebook is divided into 5 sections :
-
+    7.1 I recommend you start with section #1: Import modules and libraries, Connection to PostgreSQL, which is where you will import the libraries and modules that were necessary for the development of the  workshop.
+    ##### Note: In the second block of code in section #1 you must change the name of the JSON file to the name of the JSON file that you need to create to be able to make the connection to the database. In my case the name of my file was `connection.json`. If you decide to name your file the same way, remember to change the values specified in the `Database Configuration` field located in the README.
+    7.2 The second step is to run section 2, which is where the table is created in the database and the csv data is inserted into the table once the table is created in PostgreSQL
+    7.3 The third step is to run section 3, which is where the exploratory analysis of the data was carried out in order to better understand its structure, dimensions of the table and some histograms.
+    7.4 The fourth step is to run section 4, which is where the logic was applied to classify the hired candidates in a new column called "Hired", also where the technologies were classified by categories for better analysis, and finally a new one table was created (candidatesHired) in the database to which the data was inserted with the new columns that were created for the analysis.
+    7.5 The last step is to run section 5. In this section the required graphs are generated with matplotlib. However, if you want to see my dashboard made in Power BI, you can find it at the end of the README.
 
