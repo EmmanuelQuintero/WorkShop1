@@ -44,7 +44,7 @@ The repository has a gitignore, the dataset used, the readme and the jupyter Not
 - Install PowerBI [PowerBI Donwloads](https://www.microsoft.com/en-us/download/details.aspx?id=58494) 
 
 # Database Configuration
-To run the application correctly, you need to create a JSON file to connect to the database in postgresSQL with the following format and fill in the values with information from your database:
+To run the application correctly, you need to create a JSON file called `connection.json` to connect to the database in postgresSQL with the following format and fill the values with information from your database:
 
 ```json
 {
