@@ -87,6 +87,8 @@ pip install requirements.txt
 - The fourth step is to run section 4, which is where the logic was applied to classify the hired candidates in a new column called "Hired", also where the technologies were classified by categories for better analysis, and finally a new one table was created (candidatesHired) in the database to which the data was inserted with the new columns that were created for the analysis.
 - The last step is to run section 5. In this section the required graphs are generated with matplotlib. However, if you want to see my dashboard made in Power BI, you can find it at the end of the README.
 8. Let's go to Power BI :
+
+  
 8.1 Create a new dashboard.
 ![image](https://github.com/emmanuelqp/WorkShop1/assets/111546312/5c08f327-7312-4e49-8fb6-fe5982eea0e0)
 
@@ -94,19 +96,25 @@ pip install requirements.txt
 ![image](https://github.com/emmanuelqp/WorkShop1/assets/111546312/ad564305-0ed1-4a68-9aec-d5778baede27)
 
 8.3 Search PostgreSQL Database
+
+
 ![image](https://github.com/emmanuelqp/WorkShop1/assets/111546312/2c0e0800-713c-4773-a9c7-e51d390cddf9)
 
 8.4 Insert your PostgreSQL server and your database name and accept:
+
+
 ![image](https://github.com/emmanuelqp/WorkShop1/assets/111546312/84572a44-9e86-4ef1-b9b8-6336ecacd1c4)
 
 8.5 If you manage to connect to the database the following will appear:
+
+
 ![image](https://github.com/emmanuelqp/WorkShop1/assets/111546312/e6797b4a-a58a-4631-998b-aa6d50e48086)
 
 8.6 Congrats!, you can now select the table you want to work with, you can upload it to the dashboard and make your own dashboard
 
 # My Dashboard
 
-[My Dashboard]https://uao-my.sharepoint.com/:u:/g/personal/emmanuel_quintero_uao_edu_co/EUuTHQh2znxFmBCarV1Y97MBfvBgvNtOdhB4BSVPn3PjQA?e=3ZLxva
+[My Dashboard](https://uao-my.sharepoint.com/:u:/g/personal/emmanuel_quintero_uao_edu_co/EUuTHQh2znxFmBCarV1Y97MBfvBgvNtOdhB4BSVPn3PjQA?e=3ZLxva)
 
 
 
