@@ -9,7 +9,7 @@ This project is based on the creation of a Python application that manages and v
   - Pyhton
   - Jupyter Notebook
   - PostgresSQL 15
-  - SQLAlchemy <img src="https://quintagroup.com/cms/python/images/sqlalchemy-logo.png/@@images/eca35254-a2db-47a8-850b-2678f7f8bc09.png" alt="SQLAlchemy" width="45px" height="21px">
+  - SQLAlchemy
   - Pandas
   - Matplotlib
   - Power BI
