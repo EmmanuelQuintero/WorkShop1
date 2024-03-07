@@ -111,8 +111,6 @@ pip install requirements.txt
 # My Dashboard
 [My Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTdjYmRjY2UtODQ2OS00M2FkLThiYmQtNGMzNDAzNGUyMDFlIiwidCI6IjY5M2NiZWEwLTRlZjktNDI1NC04OTc3LTc2ZTA1Y2I1ZjU1NiIsImMiOjR9)
 
-[My Dashboard](https://uao-my.sharepoint.com/:u:/g/personal/emmanuel_quintero_uao_edu_co/EUuTHQh2znxFmBCarV1Y97MBfvBgvNtOdhB4BSVPn3PjQA?e=3ZLxva)
-
 ## Project Author
 Made and presented by: Emmanuel Quintero
 
