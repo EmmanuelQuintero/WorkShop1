@@ -1,18 +1,8 @@
 # Workshop 1 Python Data Engineer
-Presented by Emmanuel Quintero
 
 # Overview
 Welcome!
 This project is based on the creation of a Python application that manages and visualizes data from candidates who participated in selection processes. A CSV file is provided with random data about the candidates, and the goal is to migrate this data to a relational database, perform analysis and manipulations on the data, and then generate visualizations of this data from the database.
-
-# Tools used
-  - Pyhton
-  - Jupyter Notebook
-  - PostgresSQL 15
-  - SQLAlchemy
-  - Pandas
-  - Matplotlib
-  - Power BI
 
 # Dataset Information
   - First Name: Object
@@ -26,6 +16,15 @@ This project is based on the creation of a Python application that manages and v
   - Code Challenge Score : int64
   - Technical Interview Score : int 64
 
+# Tools used
+  - Pyhton
+  - Jupyter Notebook
+  - PostgresSQL 15
+  - SQLAlchemy
+  - Pandas
+  - Matplotlib
+  - Power BI
+
 # Project Features
 
 - Data migration: The data from the CSV file is migrated to a relational database in this case PostgreSQL.
@@ -34,14 +33,11 @@ This project is based on the creation of a Python application that manages and v
 - Data analysis: Analysis is carried out on the data stored in the database according to criteria such as hiring by technology, year, seniority, country, etc.
 - Visualizations: Visualizations are generated in Power BI using graphics such as pie charts, bar charts and multiline charts to represent the results of the analyzes performed.
 
-# About the Repository
-The repository has a gitignore, the dataset used, the readme and the jupyter Notebook that was developed to carry out the workshop
-
 # Requirements
 
-- Install Python [Python Downloads](https://www.python.org/downloads/)
-- Install PostgreSQL [Postgres Downloads](https://www.postgresql.org/download/)
-- Install PowerBI [PowerBI Donwloads](https://www.microsoft.com/en-us/download/details.aspx?id=58494) 
+- Install Python
+- Install PostgreSQL
+- Install PowerBI
 
 # Database Configuration
 To run the application correctly, you need to create a JSON file called `connection.json` to connect to the database in postgresSQL with the following format and fill the values with information from your database:
@@ -86,7 +82,7 @@ pip install requirements.txt
 - The third step is to run section 3, which is where the exploratory analysis of the data was carried out in order to better understand its structure, dimensions of the table and some histograms.
 - The fourth step is to run section 4, which is where the logic was applied to classify the hired candidates in a new column called "Hired", also where the technologies were classified by categories for better analysis, and finally a new one table was created (candidatesHired) in the database to which the data was inserted with the new columns that were created for the analysis.
 - The last step is to run section 5. In this section the required graphs are generated with matplotlib. However, if you want to see my dashboard made in Power BI, you can find it at the end of the README.
-8. Let's go to Power BI :
+8. Power BI :
 
   
 8.1 Create a new dashboard.
@@ -116,7 +112,6 @@ pip install requirements.txt
 
 [My Dashboard](https://uao-my.sharepoint.com/:u:/g/personal/emmanuel_quintero_uao_edu_co/EUuTHQh2znxFmBCarV1Y97MBfvBgvNtOdhB4BSVPn3PjQA?e=3ZLxva)
 
-
-
-  
+## Project Author
+Made and presented by: Emmanuel Quintero
 
