@@ -108,8 +108,12 @@ pip install requirements.txt
 
 8.6 Congrats!, you can now select the table you want to work with, you can upload it to the dashboard and make your own dashboard
 
-# My Dashboard
+## My Dashboard
 Here's my Dashboard [Click Me](WorkShop_Visualization.pdf)
+
+## Thanks
+Thanks for visiting my project.
+Any suggestion or contribution is always welcome. 🌐
 
 ## Project Author
 Made and presented by: Emmanuel Quintero
